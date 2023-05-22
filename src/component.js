@@ -1,11 +1,7 @@
-
-
-const Component = ()=>{
+const Header = ()=>{
     return(
-        <>
-          <h1>Hellowss</h1>
-        </>
+        
     )
 }
 
-export default Component
+export default Header
