@@ -66,7 +66,7 @@ ul{
     padding: 6px;
     border-radius: 8px;
     position: absolute;
-    display: none;
+    opacity: 0;
 }
 .right-block-lang-curr .dropdown li{
     padding: 4px 8px;
@@ -79,5 +79,6 @@ ul{
 
 .mid-bar .lang-wrap:hover .dropdown,
 .mid-bar .curr-wrap:hover .dropdown{
-    display: block;
+    opacity: 1;
+    transition: all 1s;
 }
