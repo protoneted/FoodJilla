@@ -5,7 +5,6 @@ import Component from "./src/component";
 const App = () => {
     return (
         <>
-        <h1>hello</h1>
         <Component/>
         </>
     )
